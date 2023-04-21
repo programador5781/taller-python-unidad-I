@@ -101,29 +101,36 @@ Lo podemos solucionar ejecutando el siguiente comando:
 git config --global push.autoSetupRemote true
 ```
 
-De esta manera ya podemos hacr nuestro push a nuestra rama, el cual se verá en el repo de la siguiente manera:
+De esta manera ya podemos hacer nuestro push a nuestra rama. 
+
+![image](https://user-images.githubusercontent.com/88601627/233665061-2ffe62f5-0999-4013-a17b-a94ff97efdb4.png)
 
 
-![image](https://user-images.githubusercontent.com/88601627/233657286-af2b5604-b4b3-4e4f-bee6-fb55d8746a7d.png)
+vemos que hay un pull request pendiente. Click en pull request. Veremos la siguiente pantalla:
 
-4. Una vez en el github, presionamos donde dice:
+![image](https://user-images.githubusercontent.com/88601627/233665564-0fc432c0-5990-4dda-ac7a-89c8fba54f02.png)
 
-![image](https://user-images.githubusercontent.com/88601627/233658918-bd212885-b6b6-4919-876b-68962d93b67e.png)
+4. Presiona en new pull request, se abre una nueva pantalla:
 
-aquí veremos la siguiente imagen:
-
-![image](https://user-images.githubusercontent.com/88601627/233659051-5ab1451f-75e8-4b64-aa82-9c2b8b09806d.png)
+![image](https://user-images.githubusercontent.com/88601627/233665881-42bcdd91-c3e7-4b1c-a38d-57cf2400b3e2.png)
 
 
-Aquí podemos escribir un comentario sobre el ejercicio y finalmente presionar el botón CREATE PULL REQUEST
+Acá podemos comparar los cambios, buscamos nuestra rama:
 
-![image](https://user-images.githubusercontent.com/88601627/233659523-72dffbcc-c910-4fef-8744-d349b48daea6.png)
+![image](https://user-images.githubusercontent.com/88601627/233666006-3ec8e32e-c9e7-4cf5-ae9f-3dfd05f8e179.png)
 
-Ahora se nos muestra la siguiente pantalla:
 
-![image](https://user-images.githubusercontent.com/88601627/233660107-5ab42bad-faaf-40c9-9c6b-96093c0b8c9c.png)
+Aquí podemos ver los cambios:
 
-Click en Merge pull request y después en confirm merge
+![image](https://user-images.githubusercontent.com/88601627/233666143-0f3f8be6-f389-4d5f-b3e4-cab63f1550bf.png)
+
+
+5. Click en View pull request y se abre esta pestaña:
+
+![image](https://user-images.githubusercontent.com/88601627/233666423-fec6d3c4-0809-4f7a-a242-558fbb2aabac.png)
+
+
+En espera de que un compañero revise los cambios y los autorize, para su respectivo merge.
 
 ¡Eso es todo! 
 
