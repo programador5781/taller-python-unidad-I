@@ -85,18 +85,24 @@ git push
 ```
 si al hacer el push te arroja un error: 
 ```
-fatal: The current branch ricardo has no upstream branch.
+fatal: The current branch [nombre_de_tu_rama] has no upstream branch.
 To push the current branch and set the remote as upstream, use
 
-    git push --set-upstream origin ricardo
+    git push --set-upstream origin nombre_de_tu_rama
 
 To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 ```
+
 Lo podemos solucionar ejecutando el siguiente comando:
+
 ```
 git config --global push.autoSetupRemote true
 ```
+De esta manera ya podemos hacr nuestro push a nuestra rama, el cual se verá en el repo de la siguiente manera:
+
+![image](https://user-images.githubusercontent.com/88601627/233657286-af2b5604-b4b3-4e4f-bee6-fb55d8746a7d.png)
+
 Ahora debemos realizar un pull request, nos dirijimos al repo https://github.com/programador5781/taller-python-unidad-I.git, vemos la siguiente pantalla:
 ![image](https://user-images.githubusercontent.com/88601627/233648699-67b20882-ba3e-4246-bee3-4feccb745471.png)
 
