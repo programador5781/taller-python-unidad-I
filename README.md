@@ -57,7 +57,7 @@ Esto mostrará una lista de todas las ramas en el repositorio y resaltará la ra
 ```
 git branch nombre_de_tu_rama
 ```
-Asegúrate de reemplazar "nombre_de_tu_rama" con un nombre descriptivo para tu nueva rama. Puede ser tu nombre, con esto se identificamos más facilmente a los miembros del equipo, en ete caso.
+Asegúrate de reemplazar "nombre_de_tu_rama" con un nombre descriptivo para tu nueva rama. Puede ser tu nombre, con esto se identificamos más facilmente a los miembros del equipo, en este caso.
 
 6. Cambia a la nueva rama. Ingresa el siguiente comando:
 ```
