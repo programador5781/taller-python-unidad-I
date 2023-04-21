@@ -84,6 +84,7 @@ git commit -m "tu_mensaje"
 git push
 ```
 si al hacer el push te arroja un error: 
+
 ```
 fatal: The current branch [nombre_de_tu_rama] has no upstream branch.
 To push the current branch and set the remote as upstream, use
@@ -99,7 +100,9 @@ Lo podemos solucionar ejecutando el siguiente comando:
 ```
 git config --global push.autoSetupRemote true
 ```
+
 De esta manera ya podemos hacr nuestro push a nuestra rama, el cual se verá en el repo de la siguiente manera:
+
 
 ![image](https://user-images.githubusercontent.com/88601627/233657286-af2b5604-b4b3-4e4f-bee6-fb55d8746a7d.png)
 
@@ -109,9 +112,12 @@ Ahora debemos realizar un pull request, nos dirijimos al repo https://github.com
 4. ingresamos en la pestaña que dice Pull request
 5. clickeamos ![image](https://user-images.githubusercontent.com/88601627/233649135-abb14b0f-f15a-4cad-a4ef-8e13eaf43a90.png)
 
+
 Aquí veremos la siguiente pantalla:
 
 ![image](https://user-images.githubusercontent.com/88601627/233649283-99735388-afc8-4613-afdf-08625c685fa2.png)
+
+
 6. en el apartado donde dice compare changes veremos dos pestañas en la pestaña de la derecha clickeamos y buscamos nuestra rama.
 "Compare changes" en GitHub es una función que te permite comparar diferentes versiones de un archivo o un repositorio completo en tu cuenta de GitHub. Esta función es muy útil para ver exactamente lo que ha cambiado entre dos versiones de un archivo o para rastrear los cambios realizados por diferentes colaboradores en un repositorio.
 
@@ -120,7 +126,9 @@ Por ejemplo, si estás trabajando en un proyecto en GitHub con varios colaborado
 También puedes usar "Compare changes" para ver cómo ha evolucionado un proyecto con el tiempo, comparando versiones anteriores con las actuales. Esto puede ayudarte a comprender cómo ha cambiado el proyecto con el tiempo y a identificar patrones en los cambios realizados.
 
 7. Presionamos
+
  ![image](https://user-images.githubusercontent.com/88601627/233652083-727b78ac-7bef-43eb-b90f-563dd6c1939f.png)
+ 
  
  ahora esperaremos a que un compañero autorize los cambios y haga el merge.
 
