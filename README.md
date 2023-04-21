@@ -9,7 +9,14 @@ Hacer fork de un repositorio es una herramienta útil en colaboraciones de códi
 ### 2. Clonar el repo
 #### Clonar un repositorio" es el proceso de copiar un repositorio de código de una plataforma de alojamiento de repositorios, como GitHub o GitLab, a tu propia computadora local. Esto significa que puedes trabajar en el código en tu propia computadora y hacer cambios sin afectar el repositorio original en la plataforma de alojamiento.
 
-Para clonar un repositorio, generalmente se utiliza la herramienta de línea de comandos de Git. Primero, debes tener Git instalado en tu computadora. Luego, debes encontrar la URL del repositorio que deseas clonar desde la plataforma de alojamiento. Luego, desde la línea de comandos, puedes ejecutar el comando git clone [url] seguido de la URL del repositorio. Git descargará todo el contenido del repositorio en una nueva carpeta en tu computadora local.
+Para clonar un repositorio, generalmente se utiliza la herramienta de línea de comandos de Git. 
+1. Debes tener Git instalado en tu computadora. 
+2. Debes encontrar la URL del repositorio que deseas clonar desde la plataforma de alojamiento. 
+3. Desde la línea de comandos, puedes ejecutar el comando: 
+```
+git clone [url] 
+```
+seguido de la URL del repositorio. Git descargará todo el contenido del repositorio en una nueva carpeta en tu computadora local.
 
 Una vez que has clonado el repositorio, puedes trabajar en el código en tu propia computadora y hacer cambios, agregar nuevas características o corregir errores. Luego, puedes enviar tus cambios de vuelta al repositorio original en la plataforma de alojamiento mediante un "push" (empujar), lo que permitirá al propietario del repositorio original revisar tus cambios y decidir si los acepta o no.
 
@@ -76,7 +83,20 @@ git commit -m "tu_mensaje"
 ```
 git push
 ```
+si al hacer el push te arroja un error: 
+```
+fatal: The current branch ricardo has no upstream branch.
+To push the current branch and set the remote as upstream, use
 
+    git push --set-upstream origin ricardo
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+```
+Lo podemos solucionar ejecutando el siguiente comando:
+```
+git config --global push.autoSetupRemote true
+```
 Ahora debemos realizar un pull request, nos dirijimos al repo https://github.com/programador5781/taller-python-unidad-I.git, vemos la siguiente pantalla:
 ![image](https://user-images.githubusercontent.com/88601627/233648699-67b20882-ba3e-4246-bee3-4feccb745471.png)
 
