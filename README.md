@@ -125,5 +125,5 @@ Ahora se nos muestra la siguiente pantalla:
 
 Click en Merge pull request y después en confirm merge
 
-¡Eso es todo! Ahora puedes agregar nuevos archivos, hacer cambios en el código o cualquier otra cosa que necesites en tu nueva rama. Cuando hayas terminado, puedes fusionar la rama de vuelta a la rama principal o enviar la nueva rama a la plataforma de alojamiento, como GitHub.
+¡Eso es todo! 
 
