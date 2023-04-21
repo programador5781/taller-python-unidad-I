@@ -29,9 +29,9 @@ Haz un "fork" del repositorio original en la plataforma de alojamiento, como Git
 
 Clona el repositorio en tu computadora. Para hacer esto, ve a la página de tu repositorio recién creado y copia la URL del repositorio. Luego, abre la terminal o línea de comandos en tu computadora y ejecuta el siguiente comando:
 
-''' 
-cmd
+``` 
 git clone [URL_del_repositorio]
+```
 Asegúrate de reemplazar "[URL_del_repositorio]" con la URL que acabas de copiar.
 
 Cambia al directorio del repositorio recién clonado. Para hacer esto, ingresa el siguiente comando en la terminal:
@@ -39,15 +39,21 @@ cd [nombre_del_repositorio]
 Asegúrate de reemplazar "[nombre_del_repositorio]" con el nombre del repositorio que acabas de clonar.
 
 Verifica que estás en la rama principal del repositorio. Para hacer esto, ingresa el siguiente comando:
+```
 git branch
+```
 Esto mostrará una lista de todas las ramas en el repositorio y resaltará la rama actual en la que te encuentras. Si la rama actual es "master", entonces estás en la rama principal.
 
 Crea una nueva rama para trabajar. Ingresa el siguiente comando en la terminal:
+```
 git branch nombre_de_tu_rama
+```
 Asegúrate de reemplazar "nombre_de_tu_rama" con un nombre descriptivo para tu nueva rama.
 
 Cambia a la nueva rama. Ingresa el siguiente comando:
+```
 git checkout nombre_de_tu_rama
+```
 Ahora estás en la nueva rama y puedes trabajar en ella sin afectar la rama principal.
 
 ¡Eso es todo! Ahora puedes agregar nuevos archivos, hacer cambios en el código o cualquier otra cosa que necesites en tu nueva rama. Cuando hayas terminado, puedes fusionar la rama de vuelta a la rama principal o enviar la nueva rama a la plataforma de alojamiento, como GitHub.
