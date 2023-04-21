@@ -106,33 +106,24 @@ De esta manera ya podemos hacr nuestro push a nuestra rama, el cual se verá en 
 
 ![image](https://user-images.githubusercontent.com/88601627/233657286-af2b5604-b4b3-4e4f-bee6-fb55d8746a7d.png)
 
-Ahora debemos realizar un pull request, nos dirijimos al repo https://github.com/programador5781/taller-python-unidad-I.git, vemos la siguiente pantalla:
-![image](https://user-images.githubusercontent.com/88601627/233648699-67b20882-ba3e-4246-bee3-4feccb745471.png)
+4. Una vez en el github, presionamos donde dice:
 
-4. ingresamos en la pestaña que dice Pull request
-5. clickeamos
+![image](https://user-images.githubusercontent.com/88601627/233658918-bd212885-b6b6-4919-876b-68962d93b67e.png)
 
-![image](https://user-images.githubusercontent.com/88601627/233649135-abb14b0f-f15a-4cad-a4ef-8e13eaf43a90.png)
+aquí veremos la siguiente imagen:
 
-
-Aquí veremos la siguiente pantalla:
-
-![image](https://user-images.githubusercontent.com/88601627/233649283-99735388-afc8-4613-afdf-08625c685fa2.png)
+![image](https://user-images.githubusercontent.com/88601627/233659051-5ab1451f-75e8-4b64-aa82-9c2b8b09806d.png)
 
 
-6. en el apartado donde dice compare changes veremos dos pestañas en la pestaña de la derecha clickeamos y buscamos nuestra rama.
-"Compare changes" en GitHub es una función que te permite comparar diferentes versiones de un archivo o un repositorio completo en tu cuenta de GitHub. Esta función es muy útil para ver exactamente lo que ha cambiado entre dos versiones de un archivo o para rastrear los cambios realizados por diferentes colaboradores en un repositorio.
+Aquí podemos escribir un comentario sobre el ejercicio y finalmente presionar el botón CREATE PULL REQUEST
 
-Por ejemplo, si estás trabajando en un proyecto en GitHub con varios colaboradores y alguien ha realizado cambios en el código que afectan la funcionalidad del proyecto, puedes usar "Compare changes" para comparar el código anterior y el nuevo, y ver exactamente qué se ha cambiado y cómo ha afectado el proyecto en general.
+![image](https://user-images.githubusercontent.com/88601627/233659523-72dffbcc-c910-4fef-8744-d349b48daea6.png)
 
-También puedes usar "Compare changes" para ver cómo ha evolucionado un proyecto con el tiempo, comparando versiones anteriores con las actuales. Esto puede ayudarte a comprender cómo ha cambiado el proyecto con el tiempo y a identificar patrones en los cambios realizados.
+Ahora se nos muestra la siguiente pantalla:
 
-7. Presionamos
+![image](https://user-images.githubusercontent.com/88601627/233660107-5ab42bad-faaf-40c9-9c6b-96093c0b8c9c.png)
 
- ![image](https://user-images.githubusercontent.com/88601627/233652083-727b78ac-7bef-43eb-b90f-563dd6c1939f.png)
- 
- 
- ahora esperaremos a que un compañero autorize los cambios y haga el merge.
+Click en Merge pull request y después en confirm merge
 
 ¡Eso es todo! Ahora puedes agregar nuevos archivos, hacer cambios en el código o cualquier otra cosa que necesites en tu nueva rama. Cuando hayas terminado, puedes fusionar la rama de vuelta a la rama principal o enviar la nueva rama a la plataforma de alojamiento, como GitHub.
 
