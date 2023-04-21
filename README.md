@@ -1,5 +1,5 @@
 ﻿# taller-python-unidad-I
-### 1. Hacer fork del repo
+### 1. fork 
 #### En el contexto de la programación y el uso de repositorios de código en plataformas como GitHub, hacer "fork" de un repositorio significa crear una copia personal de ese repositorio en tu propia cuenta de GitHub. Al hacer fork de un repositorio, puedes hacer cambios en tu propia copia del código sin afectar el código original en el repositorio original.
 
 Una vez que has hecho fork de un repositorio, puedes trabajar en tu propia versión del código y hacer todos los cambios que necesites, como agregar nuevas características o corregir errores. Luego, puedes enviar tus cambios de vuelta al repositorio original mediante un "pull request" (solicitud de extracción), lo que permitirá al propietario del repositorio original revisar tus cambios y decidir si los acepta o no.
@@ -25,36 +25,78 @@ Ahora estás en una nueva rama donde puedes trabajar en tu nueva funcionalidad o
 ## INSTRUCCIONES
 
 ### Paso a paso
-Haz un "fork" del repositorio original en la plataforma de alojamiento, como GitHub. Para hacer esto, ve al repositorio original y haz clic en el botón "Fork" en la esquina superior derecha de la página. Esto creará una copia del repositorio en tu cuenta.
 
-Clona el repositorio en tu computadora. Para hacer esto, ve a la página de tu repositorio recién creado y copia la URL del repositorio. Luego, abre la terminal o línea de comandos en tu computadora y ejecuta el siguiente comando:
+1. Clona el repositorio en tu computadora. Para hacer esto, ve a la página del repositorio https://github.com/programador5781/taller-python-unidad-I.git copia la URL del repositorio. 
+2. Abre la terminal o línea de comandos en tu computadora y ejecuta el siguiente comando:
 
 ``` 
 git clone [URL_del_repositorio]
 ```
 Asegúrate de reemplazar "[URL_del_repositorio]" con la URL que acabas de copiar.
 
-Cambia al directorio del repositorio recién clonado. Para hacer esto, ingresa el siguiente comando en la terminal:
+3. Cambia al directorio del repositorio recién clonado. Para hacer esto, ingresa el siguiente comando en la terminal:
+```
 cd [nombre_del_repositorio]
-Asegúrate de reemplazar "[nombre_del_repositorio]" con el nombre del repositorio que acabas de clonar.
+```
+Asegúrate de reemplazar "[nombre_del_repositorio]" con el nombre del repositorio que acabas de clonar. En nuestro caso el nombre del repositorio es taller-python-unidad-I.
 
-Verifica que estás en la rama principal del repositorio. Para hacer esto, ingresa el siguiente comando:
+4. Verifica que estás en la rama principal del repositorio. Para hacer esto, ingresa el siguiente comando:
 ```
 git branch
 ```
-Esto mostrará una lista de todas las ramas en el repositorio y resaltará la rama actual en la que te encuentras. Si la rama actual es "master", entonces estás en la rama principal.
+Esto mostrará una lista de todas las ramas en el repositorio y resaltará la rama actual en la que te encuentras. Si la rama actual es "develop", entonces estás en la rama principal.
 
-Crea una nueva rama para trabajar. Ingresa el siguiente comando en la terminal:
+5. Crea una nueva rama para trabajar. Ingresa el siguiente comando en la terminal:
 ```
 git branch nombre_de_tu_rama
 ```
 Asegúrate de reemplazar "nombre_de_tu_rama" con un nombre descriptivo para tu nueva rama.
 
-Cambia a la nueva rama. Ingresa el siguiente comando:
+6. Cambia a la nueva rama. Ingresa el siguiente comando:
 ```
 git checkout nombre_de_tu_rama
 ```
 Ahora estás en la nueva rama y puedes trabajar en ella sin afectar la rama principal.
+
+
+Para subir tus cambios, sigue los mismos pasos, que cuando trabajas de forma individual.
+
+1. nuevamente la terminal en VSCode, ejecuta el comando:
+```
+git add nombre_del_archivo
+```
+asegurate de reemplazar nombre_del_archivo por el nombre del archivo que estás trabajando.
+
+2. realiza un commit
+```
+git commit -m "tu_mensaje"
+```
+
+3. realiza un push
+```
+git push
+```
+
+Ahora debemos realizar un pull request, nos dirijimos al repo https://github.com/programador5781/taller-python-unidad-I.git, vemos la siguiente pantalla:
+![image](https://user-images.githubusercontent.com/88601627/233648699-67b20882-ba3e-4246-bee3-4feccb745471.png)
+
+4. ingresamos en la pestaña que dice Pull request
+5. clickeamos ![image](https://user-images.githubusercontent.com/88601627/233649135-abb14b0f-f15a-4cad-a4ef-8e13eaf43a90.png)
+
+Aquí veremos la siguiente pantalla:
+
+![image](https://user-images.githubusercontent.com/88601627/233649283-99735388-afc8-4613-afdf-08625c685fa2.png)
+6. en el apartado donde dice compare changes veremos dos pestañas en la pestaña de la derecha clickeamos y buscamos nuestra rama.
+"Compare changes" en GitHub es una función que te permite comparar diferentes versiones de un archivo o un repositorio completo en tu cuenta de GitHub. Esta función es muy útil para ver exactamente lo que ha cambiado entre dos versiones de un archivo o para rastrear los cambios realizados por diferentes colaboradores en un repositorio.
+
+Por ejemplo, si estás trabajando en un proyecto en GitHub con varios colaboradores y alguien ha realizado cambios en el código que afectan la funcionalidad del proyecto, puedes usar "Compare changes" para comparar el código anterior y el nuevo, y ver exactamente qué se ha cambiado y cómo ha afectado el proyecto en general.
+
+También puedes usar "Compare changes" para ver cómo ha evolucionado un proyecto con el tiempo, comparando versiones anteriores con las actuales. Esto puede ayudarte a comprender cómo ha cambiado el proyecto con el tiempo y a identificar patrones en los cambios realizados.
+
+7. Presionamos
+ ![image](https://user-images.githubusercontent.com/88601627/233652083-727b78ac-7bef-43eb-b90f-563dd6c1939f.png)
+ 
+ ahora esperaremos a que un compañero autorize los cambios y haga el merge.
 
 ¡Eso es todo! Ahora puedes agregar nuevos archivos, hacer cambios en el código o cualquier otra cosa que necesites en tu nueva rama. Cuando hayas terminado, puedes fusionar la rama de vuelta a la rama principal o enviar la nueva rama a la plataforma de alojamiento, como GitHub.
 
