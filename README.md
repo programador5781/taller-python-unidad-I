@@ -51,13 +51,13 @@ Asegúrate de reemplazar "[nombre_del_repositorio]" con el nombre del repositori
 ```
 git branch
 ```
-Esto mostrará una lista de todas las ramas en el repositorio y resaltará la rama actual en la que te encuentras. Si la rama actual es "develop", entonces estás en la rama principal.
+Esto mostrará una lista de todas las ramas en el repositorio y resaltará la rama actual en la que te encuentras. Si la rama actual es "main", entonces estás en la rama principal.
 
 5. Crea una nueva rama para trabajar. Ingresa el siguiente comando en la terminal:
 ```
 git branch nombre_de_tu_rama
 ```
-Asegúrate de reemplazar "nombre_de_tu_rama" con un nombre descriptivo para tu nueva rama.
+Asegúrate de reemplazar "nombre_de_tu_rama" con un nombre descriptivo para tu nueva rama. Puede ser tu nombre, con esto se identificamos más facilmente a los miembros del equipo, en ete caso.
 
 6. Cambia a la nueva rama. Ingresa el siguiente comando:
 ```
@@ -66,7 +66,7 @@ git checkout nombre_de_tu_rama
 Ahora estás en la nueva rama y puedes trabajar en ella sin afectar la rama principal.
 
 
-Para subir tus cambios, sigue los mismos pasos, que cuando trabajas de forma individual.
+Para subir tus cambios, sigue los mismos pasos, que cuando trabajas de forma individual. Asegurate de estar en tu rama.
 
 1. nuevamente la terminal en VSCode, ejecuta el comando:
 ```
