@@ -110,7 +110,9 @@ Ahora debemos realizar un pull request, nos dirijimos al repo https://github.com
 ![image](https://user-images.githubusercontent.com/88601627/233648699-67b20882-ba3e-4246-bee3-4feccb745471.png)
 
 4. ingresamos en la pestaña que dice Pull request
-5. clickeamos ![image](https://user-images.githubusercontent.com/88601627/233649135-abb14b0f-f15a-4cad-a4ef-8e13eaf43a90.png)
+5. clickeamos
+
+![image](https://user-images.githubusercontent.com/88601627/233649135-abb14b0f-f15a-4cad-a4ef-8e13eaf43a90.png)
 
 
 Aquí veremos la siguiente pantalla:
