@@ -19,3 +19,5 @@ for i in range(num_obreros):
     print(f"El obrero {i+1} debe recibir {valor_pagar} pesos por su trabajo.")
 
 print(f"El valor total a pagar a los {num_obreros} obreros es de {total_pagar} pesos.")
+
+# Output : Ingrese las horas trabajadas por el obrero 1: 48, el resultado será 48000
