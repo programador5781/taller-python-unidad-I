@@ -9,3 +9,5 @@ lado = float(input("Ingrese la medida del lado del hexágono regular: "))
 perimetro = 6 * lado
 
 print("El perímetro del hexágono regular es:", perimetro)
+
+# output si el lado es 5 el perimetro será 30.0
