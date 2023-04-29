@@ -10,3 +10,14 @@ c) El peso debe ser menor o igual a 80 kg Si el aspirante cumple las 3 condicion
 
 # Tu código debajo de esta línea
 
+
+# Pedimos al usuario que ingrese la edad, estatura y peso del aspirante
+edadCandidato = int(input("Ingrese edad del candidato: "))
+estaturaCandidato = float(input("Ingrese estatura del candidato  (en cm): "))
+pesoCandidato = float(input("Ingrese peso del candidato (en kg): "))
+
+# Verificamos si el aspirante cumple las condiciones
+if edadCandidato <= 18 and estaturaCandidato > 180 and pesoCandidato <= 80:
+    print("El candidato fue seleccionado para el equipo de baloncesto de Bogotá.")
+else:
+    print("El candidato no fue aceptado en el equipo de baloncesto de Bogotá, ya que no cumple con los requisitos necesarios.")
