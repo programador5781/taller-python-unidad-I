@@ -1,4 +1,8 @@
 ﻿# taller-python-unidad-I
+ ### Leidy Nuñez , Yorleis Arias, Kenny Rodríguez, Yenner Mendoza, Ricardo Rico
+ #### Team UDC Society
+ #### Universidad de Cartagena - CTM
+ ##### Ingenieria de Software | V Smestre | Curso de Python
 ### 1. fork 
 #### En el contexto de la programación y el uso de repositorios de código en plataformas como GitHub, hacer "fork" de un repositorio significa crear una copia personal de ese repositorio en tu propia cuenta de GitHub. Al hacer fork de un repositorio, puedes hacer cambios en tu propia copia del código sin afectar el código original en el repositorio original.
 
